@@ -1,0 +1,16 @@
+@wsserv_HostAddress = http://localhost:5033
+
+POST {{wsserv_HostAddress}}/api/v1/call/create
+Accept: application/json
+
+###
+
+POST {{wsserv_HostAddress}}/api/v1/callaction/{callaction}/create
+Accept: application/json
+
+###
+
+POST {{wsserv_HostAddress}}/api/v1/callchat/{callaction}/create
+Accept: application/json
+
+###
